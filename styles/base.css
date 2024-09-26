@@ -1,0 +1,159 @@
+body {
+	font-family: "Lora", serif;
+	font-style: normal;
+	font-weight: 700;
+	}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #351836;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--secondary-color);
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+h1 {
+	font-family: "platypi", serif;
+	font-size: 3.5em;
+	font-weight: 400;
+	text-align: center;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+	color: white;
+	text-shadow: #61386c 5px 5px;
+}
+
+nav {
+	background-color: #6c3863;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 1em;
+	text-decoration: none;
+	width: 100%;
+}
+
+nav a:hover {
+    border: 2px solid white;
+	color: white;
+	transition: color 0.3s;
+}
+
+
+.card {
+    text-align: center;
+    padding: 0 25px 25px 25px;
+    margin: 10px;
+    border: #bc25a8 1px solid;
+    border-radius: 0.5em;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+	color: white;
+    margin-block-start: 1em;
+    margin-block-end: 0.8em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    font-weight: bold;
+    unicode-bidi: isolate;
+	background-color: #ce5edd;
+	border-radius: 2em;
+
+}
+
+p {
+	font-size: 1.2em;
+}
+
+#picture {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card img {
+    height: 100px;
+    padding: 5px 10px 0 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: white;
+	margin-block-start: 1em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+	background-color:#b75edd;
+	border-radius: 2em;
+	height: 1.5em;
+}
+
+.resources {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.flex a{
+	font-size: 1.4em;
+	line-height: 1.5em;
+	color: /*#6c3862*/white;
+}
+
+footer {
+    text-align: center;
+    font-weight: 400;
+	background-color: #a95dc2;
+}
+
+footer p {
+	color: white;
+	line-height: 2em;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
