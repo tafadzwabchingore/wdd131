@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --heading-font: Lato, sans-serif;
+    --paragraph-font: Lato, sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+}
+
+
+header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: var(--heading-font);
+    font-size: 15px;
+}
+
+h1{
+    padding: 10px;
+    margin: 0;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.stripe{
+    background-color: green;
+    padding: 10px;
+}
+
+.stripe-2{
+    background-color: green;
+    padding: 5px;
+}
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.labels{
+    text-align: right;
+}
+
+.values{
+    text-align: left;
+}
+
+.img-weather{
+    text-align: center;
+}
+
+.weather{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+footer {
+    text-align: center;
+    font-weight: 400;
+	background-color: green;
+}
+
+footer p {
+	color: white;
+	line-height: 2em;
+}
+
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}

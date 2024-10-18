@@ -1,0 +1,157 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Country/Place Page</title>
+    <meta name="description" content="Tafadzwa Chingore's WDD 131 - Dynamic Web Fundamentals Country Page">
+    <meta name="author" content="Tafadzwa Chingore">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lora:ital,wght@0,400..700;1,400..
+    700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Zimbabwe</h1>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+              <source srcset="images/pangolin-hero-large.webp" media="(min-width: 1000px)">
+              <source srcset="images/jacarandatree.jpg" media="(min-width: 500px)">
+              <img src="images/zimbabwe.jpg" alt="Temple name and location" width="500" height="250">
+            </picture>
+          </div>
+        
+        <section class="card">
+            <div class="grid">
+                    <h2>Data</h2>
+                    <p>Area: 390,757 sq km</p>
+                    <p>Population: 15,706,000</p>
+                    <p>Capital: Harare</p>
+                    <p>Languages:Shona, Ndebele, Chewe, Venda, English </p>
+                    <p>Currency: Zimbabwe Gold</p>
+                    <p>Time Zone: GMT+2</p>
+                    <p>Calling Code: +263</p>
+                    <p>Internet TLD: .zw</p>
+            </div>
+            <hr>
+            <!--<h2>Weather</h2>
+            <div>
+                <p>Temperature: 26 degrees celsius</p>
+                <p>Conditions: Mostly Cloudy</p>
+                <p>Wind: 19km/h</p>
+                <p>Wind Chill: </p>
+            </div>-->
+       <!--</section>
+        <section class="second">
+            <div class="weather-header">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="Weather Icon">
+            </div>
+            <dl class="data-list">
+                <dt>Temperature:</dt>
+                <dd id="temperature"></dd>
+                <dt>Conditions:</dt>
+                <dd id="conditions"></dd>
+                <dt>Wind:</dt>
+                <dd id="windSpeed"></dd>
+                <dt>Wind Chill:</dt>
+                <dd id="windChill"></dd>
+            </dl>
+        </section>
+     
+    </main>
+
+    <footer>
+        <p>@<span id="currentyear"></span> | Tafadzwa Chingore | Harare, Zimbabwe</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Country/Place Page</title>
+    <meta name="description" content="Tafadzwa Chingore's WDD 131 - Dynamic Web Fundamentals Country Page">
+    <meta name="author" content="Tafadzwa Chingore">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Zimbabwe</h1>
+    </header>
+
+    <main>
+        <div class="stripe"></div>
+        <div class="hero">
+            <picture>
+                <source srcset="images/pangolin-hero-large.webp" media="(min-width:800px)">
+                <img src="images/pangolin-hero-large.webp" alt="Man holding a pangolin" width="500" height="250">
+            </picture>
+        </div>
+        <div class="stripe-2"></div>
+        <h2 class="title-data">Data</h2>
+        <div class="data">
+            <div class="labels">
+                <p><strong>Area: </strong></p>
+                <p><strong>Population: </strong></p>
+                <p><strong>Language: </strong></p>
+                <p><strong>Currency: </strong></p>
+                <p><strong>Time Zone: </strong></p>
+                <p><strong>Calling Code: </strong></p>
+                <p><strong>Internet TLD: </strong></p>
+            </div>
+            <div class="values">
+                <p>399 757 sq km</p>
+                <p>15 706 000</p>
+                <p>Shona, Ndebele, English, Venda, Chewe</p>
+                <p>Zimbabwe Gold</p>
+                <p>GMT+2</p>
+                <p>+263</p>
+                <p>.ZW</p>
+            </div>
+        </div>
+
+        <h2 class="title-weather">Weather</h2>
+        <div class="img-weather">
+            <img class="img-weather" src="images/weather_icon.svg" alt="" width="100">
+        </div>
+        <div class="weather">
+            <div class="labels">
+                <p><strong>Temperature: </strong></p>
+                <p><strong>Conditions: </strong></p>
+                <p><strong>Wind: </strong></p>
+                <p><strong>Wind Chill: </strong></p>
+            
+            </div>
+            <div class="values">
+                <p><span id="temperature">24</span> °<span id="temperatureUnit">C</span></p>
+                <p>Mostly Sunny</p>
+                <p><span id="wind">9</span> km/h</p>
+                <p id="windChillFactor"></p>
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>@<span id="currentyear"></span> ✨ Tafadzwa Chingore ✨ Harare, 🦋Zimbabwe</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+
+</html>
