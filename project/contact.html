@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="images/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="author" content="Tafadzwa Chingore's WDD 131 Project: Holyname Church Contact Us Page">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="scripts/project.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Holyname Church Contact Us Page</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <header>
+        <ul class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="resources.html">Resorces</a>
+            <a href="contact.html">Contact Us</a>
+        </ul>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <address class="grid">
+            Visit us at:
+            <br>
+            17 Wessex Drive,<br>
+            Cotswold Hills,<br>
+            Mabelreign,<br>
+            Harare<br>
+            Zimbabwe<br>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.9426512195337!2d30.99195847494479!3d-17.
+                    794392183163804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5fbe0e528c9%3A0xc6d9147c11645940!2sHoly%
+                    20Name%20Mabelreign!5e0!3m2!1sen!2szw!4v1730372569764!5m2!1sen!2szw" width="600" height="450" style="border:0;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            Email us at:
+            <a href="holynamemabelreign@gmail.com">holynamemabelreign@gmail.com</a><br>
+            <br>
+            Or call us on:
+            <a href="tel:(024) 2306479">(024) 2306479</a>
+        </address>
+        <br>
+        <form>
+            <fieldset>
+                <h2>We would love to hear from you!</h2>
+                <p>Please click "Submit" after making your selections. Thank you.</p>
+                <div>
+                    <label for="name1">NAME:</label><br>
+                    <span><input type="text" name="name" id="name1" class="data-entry"></span><br><br>
+                    <label for="email">E-MAIL ADDRESS:</label><br>
+                    <span><input type="email" name="email" id="email1" class="data-entry"></span><br><br>
+                    <p>PURPOSE:</p><br>
+                
+                    <span><input type="radio" name="inquiry" id="inquiry1"></span>
+                    <label for="inquiry">Inquiry</label><br>
+                    <span><input type="radio" name="reservation" id="reservation1"></span>
+                    <label for="reservation">Reservation</label><br>
+                    <span><input type="radio" name="suggestion" id="suggestion"></span>
+                    <label for="suggestion">Suggestion</label><br>
+                    <br>
+                
+                    <label for="comments3">COMMENTS:</label><br>
+                    <span><textarea name="comments" id="comments3" rows="4" ></textarea></span><br><br>
+
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <span><input type="checkbox" name="subscribe" id="subscribe"></span><br><br>
+                </div>
+            </fieldset>
+            <button>Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> ✨ Tafadzwa Chingore ✨ 📍Harare, Zimbabwe✨</p>
+        <p>🦋Last Modified: <span id="lastModified"></span>🦋</p>
+    </footer>
+</body>
+</html>
